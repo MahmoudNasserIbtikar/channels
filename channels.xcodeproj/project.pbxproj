@@ -16,6 +16,17 @@
 		6FDA0604242920120000CE25 /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDA0603242920120000CE25 /* AppManager.swift */; };
 		6FDA060A2429207B0000CE25 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDA06082429207B0000CE25 /* HomeViewController.swift */; };
 		6FDA060B2429207B0000CE25 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FDA06092429207B0000CE25 /* HomeViewController.xib */; };
+		6FDA061024292B500000CE25 /* BaseModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDA060F24292B500000CE25 /* BaseModelProtocol.swift */; };
+		6FDA061224292B790000CE25 /* BasePresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDA061124292B790000CE25 /* BasePresenterProtocol.swift */; };
+		6FDA061424292BDA0000CE25 /* BaseViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDA061324292BDA0000CE25 /* BaseViewProtocol.swift */; };
+		6FDA061624292C0A0000CE25 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDA061524292C0A0000CE25 /* BaseModel.swift */; };
+		6FDA061824292C2E0000CE25 /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDA061724292C2E0000CE25 /* BasePresenter.swift */; };
+		6FDA061A24292D0E0000CE25 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDA061924292D0E0000CE25 /* BaseViewController.swift */; };
+		6FDA061D24292DFA0000CE25 /* HomeModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDA061C24292DFA0000CE25 /* HomeModelProtocol.swift */; };
+		6FDA061F24292E500000CE25 /* HomePresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDA061E24292E500000CE25 /* HomePresenterProtocol.swift */; };
+		6FDA062324292EB30000CE25 /* HomeViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDA062224292EB30000CE25 /* HomeViewProtocol.swift */; };
+		6FDA062524292F2B0000CE25 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDA062424292F2B0000CE25 /* HomePresenter.swift */; };
+		6FDA0628242930540000CE25 /* HomeItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDA0627242930540000CE25 /* HomeItemModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +62,17 @@
 		6FDA0603242920120000CE25 /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
 		6FDA06082429207B0000CE25 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		6FDA06092429207B0000CE25 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		6FDA060F24292B500000CE25 /* BaseModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModelProtocol.swift; sourceTree = "<group>"; };
+		6FDA061124292B790000CE25 /* BasePresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePresenterProtocol.swift; sourceTree = "<group>"; };
+		6FDA061324292BDA0000CE25 /* BaseViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewProtocol.swift; sourceTree = "<group>"; };
+		6FDA061524292C0A0000CE25 /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		6FDA061724292C2E0000CE25 /* BasePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePresenter.swift; sourceTree = "<group>"; };
+		6FDA061924292D0E0000CE25 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		6FDA061C24292DFA0000CE25 /* HomeModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModelProtocol.swift; sourceTree = "<group>"; };
+		6FDA061E24292E500000CE25 /* HomePresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenterProtocol.swift; sourceTree = "<group>"; };
+		6FDA062224292EB30000CE25 /* HomeViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewProtocol.swift; sourceTree = "<group>"; };
+		6FDA062424292F2B0000CE25 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		6FDA0627242930540000CE25 /* HomeItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeItemModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +123,10 @@
 		6FAF5FA324291CFE002AEF50 /* channels */ = {
 			isa = PBXGroup;
 			children = (
+				6FDA060D24292B210000CE25 /* Base */,
 				6FDA060224291FE50000CE25 /* AppDelegate */,
 				6FDA0605242920440000CE25 /* Features */,
-				6FAF5FAD24291D00002AEF50 /* Assets.xcassets */,
-				6FAF5FB224291D00002AEF50 /* Info.plist */,
+				6FDA060C242922900000CE25 /* Resources */,
 			);
 			path = channels;
 			sourceTree = "<group>";
@@ -157,10 +179,69 @@
 		6FDA0607242920560000CE25 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				6FDA06292429305B0000CE25 /* UI */,
+				6FDA061B24292DE20000CE25 /* Home Protocols */,
+				6FDA0626242930350000CE25 /* Models */,
 				6FDA06082429207B0000CE25 /* HomeViewController.swift */,
-				6FDA06092429207B0000CE25 /* HomeViewController.xib */,
+				6FDA062424292F2B0000CE25 /* HomePresenter.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		6FDA060C242922900000CE25 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6FAF5FAD24291D00002AEF50 /* Assets.xcassets */,
+				6FAF5FB224291D00002AEF50 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6FDA060D24292B210000CE25 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				6FDA060E24292B270000CE25 /* Base protocols */,
+				6FDA061524292C0A0000CE25 /* BaseModel.swift */,
+				6FDA061924292D0E0000CE25 /* BaseViewController.swift */,
+				6FDA061724292C2E0000CE25 /* BasePresenter.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		6FDA060E24292B270000CE25 /* Base protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6FDA060F24292B500000CE25 /* BaseModelProtocol.swift */,
+				6FDA061324292BDA0000CE25 /* BaseViewProtocol.swift */,
+				6FDA061124292B790000CE25 /* BasePresenterProtocol.swift */,
+			);
+			path = "Base protocols";
+			sourceTree = "<group>";
+		};
+		6FDA061B24292DE20000CE25 /* Home Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6FDA061C24292DFA0000CE25 /* HomeModelProtocol.swift */,
+				6FDA062224292EB30000CE25 /* HomeViewProtocol.swift */,
+				6FDA061E24292E500000CE25 /* HomePresenterProtocol.swift */,
+			);
+			path = "Home Protocols";
+			sourceTree = "<group>";
+		};
+		6FDA0626242930350000CE25 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6FDA0627242930540000CE25 /* HomeItemModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6FDA06292429305B0000CE25 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				6FDA06092429207B0000CE25 /* HomeViewController.xib */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,8 +376,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FAF5FA524291CFE002AEF50 /* AppDelegate.swift in Sources */,
+				6FDA061824292C2E0000CE25 /* BasePresenter.swift in Sources */,
+				6FDA061224292B790000CE25 /* BasePresenterProtocol.swift in Sources */,
 				6FAF5FA724291CFE002AEF50 /* SceneDelegate.swift in Sources */,
 				6FDA0604242920120000CE25 /* AppManager.swift in Sources */,
+				6FDA061D24292DFA0000CE25 /* HomeModelProtocol.swift in Sources */,
+				6FDA061A24292D0E0000CE25 /* BaseViewController.swift in Sources */,
+				6FDA062524292F2B0000CE25 /* HomePresenter.swift in Sources */,
+				6FDA061424292BDA0000CE25 /* BaseViewProtocol.swift in Sources */,
+				6FDA0628242930540000CE25 /* HomeItemModel.swift in Sources */,
+				6FDA061024292B500000CE25 /* BaseModelProtocol.swift in Sources */,
+				6FDA061F24292E500000CE25 /* HomePresenterProtocol.swift in Sources */,
+				6FDA062324292EB30000CE25 /* HomeViewProtocol.swift in Sources */,
+				6FDA061624292C0A0000CE25 /* BaseModel.swift in Sources */,
 				6FDA060A2429207B0000CE25 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
