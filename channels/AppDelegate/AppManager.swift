@@ -36,5 +36,6 @@ class AppManager: NSObject {
         window.rootViewController = vc
         window.makeKeyAndVisible()
         self.shared.window = window
+        LaunchScreenManager.instance.animateAfterLaunch(vc.view)
     }
 }
